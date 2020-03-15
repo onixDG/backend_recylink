@@ -1,13 +1,8 @@
 {
   "name": "backend_recylink",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "scripts": {
-    "dev": "nodemon src/index.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
@@ -16,5 +11,19 @@
   },
   "devDependencies": {
     "nodemon": "^1.19.4"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OnixdDG/backend_recylink.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OnixdDG/backend_recylink/issues"
+  },
+  "homepage": "https://github.com/OnixdDG/backend_recylink#readme"
 }
