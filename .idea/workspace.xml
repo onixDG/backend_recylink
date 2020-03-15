@@ -4,7 +4,6 @@
     <list default="true" id="e6509b54-d871-4adc-a7e8-0cbe2eb40100" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controllers/animals_controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/animals_controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Animal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Animal.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +51,7 @@
       <workItem from="1584233795208" duration="2497000" />
       <workItem from="1584237631541" duration="2247000" />
       <workItem from="1584241763860" duration="14320000" />
-      <workItem from="1584299444932" duration="6516000" />
+      <workItem from="1584299444932" duration="8160000" />
     </task>
     <servers />
   </component>

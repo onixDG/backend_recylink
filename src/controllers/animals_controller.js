@@ -16,9 +16,11 @@ animalsController.createAnimal = async (req, res) => {
     res.json('New Animal added');
 };
 
-animalsController.updateAnimal = (req,res) => res.json({message: 'Animal Updated'})
+animalsController.deleteAnimal = async (req, res) => {
+    await Animal.findByIdAndDelete(req.params.id)
+    res.json('Animal Deleted');
+}
 
-animalsController.deleteAnimal = (req,res) => res.json({message: 'Animal Deleted'})
 
 module.exports = animalsController;
 
