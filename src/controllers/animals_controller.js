@@ -1,6 +1,11 @@
 const animalsController = {};
 
-animalsController.getAnimals = (req,res) => res.json({message: []})
+const animalModel = require('../models/Animal');
+
+animalsController.getAnimals = async (req,res) => {
+    const animals = await animalModel.find()
+    res.json(animals)
+}
 
 animalsController.createAnimal = (req,res) => res.json({message: 'Animal Saved'})
 
