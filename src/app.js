@@ -12,6 +12,7 @@ app.use(cors());
 app.use(express.json());
 
 // routes
+app.use('/api/animals', require('./routes/animals'))
 
 
 module.exports = app;
