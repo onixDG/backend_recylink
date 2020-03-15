@@ -1,13 +1,14 @@
 const { Router } = require('express');
 const router = Router();
 
-router.route('/')
-    .get((req,res) => res.json({message: []}))
-    .post((req,res) => res.json({message: 'Animal Saved'}));
+const { getAnimals, createAnimal, deleteAnimal, updateAnimal } = require('../controllers/animals_controller');
 
-//router.route('/:id')
-    //.get()
-    //.put()
-    //.delete()
+router.route('/')
+    .get(getAnimals)
+    .post(createAnimal);
+
+router.route('/:id')
+    .delete(deleteAnimal)
+    .put(updateAnimal);
 
 module.exports = router;
