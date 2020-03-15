@@ -21,6 +21,14 @@ animalsController.deleteAnimal = async (req, res) => {
     res.json('Animal Deleted');
 }
 
+animalsController.updateAnimal = async (req, res) => {
+    const { name, date } = req.body;
+    await Animal.findByIdAndUpdate(req.params.id, {
+        name,
+        date
+    });
+    res.json('Animal Updated');
+}
 
 module.exports = animalsController;
 
