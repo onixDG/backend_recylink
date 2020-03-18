@@ -2,6 +2,7 @@
 
 Backend de prueba técnica para empresa recylink
 
+
 ## Comenzando 🚀
 
 Para poder ejecutar este proyecto debes: 
@@ -17,6 +18,8 @@ Para poder ejecutar este proyecto debes:
 -Express v4.17.1
 -Node v12.16.1
 
+## Librerias utilizadas
+Mongoose
 
 ## Ejecutando las pruebas ⚙️
 
