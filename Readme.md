@@ -2,6 +2,9 @@
 
 Backend de prueba técnica para empresa recylink
 
+Funcionalidades:
+
+Crear, Editar, Listar y Borrar registros de amimales:
 
 ## Comenzando 🚀
 
@@ -14,11 +17,15 @@ Para poder ejecutar este proyecto debes:
 3.-Arrancar proyecto con el comando:  node src/index.js  
 
 ### Pre-requisitos y dependencias 📋
+
 -MongoDB v4.2.3
+
 -Express v4.17.1
+
 -Node v12.16.1
 
 ## Librerias utilizadas
+
 Mongoose
 
 ## Ejecutando las pruebas ⚙️
