@@ -39,7 +39,7 @@ Se ha utilizado el Framework MERN
 
 ## Versionado 📌
 
-Repositorio GitHub:git@github.com:OnixdDG/backend_recylink.git
+Repositorio GitHub:https://github.com/OnixdDG/backend_recylink
 
 ## Autores ✒️
 
